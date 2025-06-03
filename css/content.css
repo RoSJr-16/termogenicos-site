@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+}
+
+h1{
+    text-shadow: rgb(180, 180, 180) 2px 2px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titulo{
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.sumario-b{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.box1{
+    background-color: #3b3b3b;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    max-width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px white;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sumario-a a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.sumario-b{
+    gap: 12px;
+}
+
+.sumario-b button{
+    font-size: 16px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    height: 120px;
+    border: none ;
+    border-radius: 20px;
+}
+
+.sumario-b button:hover{
+    transition: 0.7s;
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 140px;
+}
+
+.sumario-a a:hover{
+    transition: 0.7s;
+    color: yellow;
+    text-decoration: underline;
+}
