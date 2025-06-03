@@ -1,0 +1,20 @@
+/*
+
+— Coloque imagens no index.html, na última DIV de baixo, pra parecer
+com o que vcs fizeram no site de Roma. Ou se nn achou legal, acho que
+botões ficaria legal. E também fazer com que o texto fique em cima da imagem,
+de novo, igual o site da Roma — no html sumario tá o esquema que montei
+antes e te mostrei na quinta.
+
+— Coloque algumas imagens nas boxs dos conteúdos dos tópicos e 
+também as respectivas pesquisas, isso em cada página contents.
+
+— Se souber, faça uma nav-bar e o rodapé, se não sabe deixa que eu faço.
+
+— Se achar a cor principal feia ou que não combina (é a cor verde do nav), 
+pode mudar que tá tranquilo.
+
+— Dai acho que tem mais nada, mas seria legal adicionar animações com JS,
+mas nn sei fazer, teria que ver vídeos e afims, mas vao de você.
+
+*/
