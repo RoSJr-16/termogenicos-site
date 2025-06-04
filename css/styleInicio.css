@@ -1,0 +1,85 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #65a18d;
+    height: 8vh;
+}
+
+footer{
+    width: 100%;
+    color: #fff;
+}
+
+#footer-content{
+    background-color: #466e61;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer-contacts h2{
+    margin-bottom: 0.75rem;
+}
+
+#footer-social-media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer-social-media .footer-link{
+   height: 2.5rem;
+   width: 2.5rem;
+   color: #fff;
+   border-radius: 50%;
+   transition: 0.4s;
+}
+
+#insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#footer-social-media .footer-link:hover{
+    opacity: 0.8;
+}
+
+
+#logo{
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.nav-header a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-header a:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+#line-bar {
+    background-color: #466e61;
+    height: 5px;
+}
+
+#line-bar p{
+    color: #466e61;
+    font-size: 2px;
+}

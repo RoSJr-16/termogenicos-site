@@ -4,39 +4,18 @@ body{
     font-family: 'Calibri';
 }
 
-h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-    text-align: center;
     text-shadow: rgb(180, 180, 180) 2px 2px;
     font-size: 45px;
     font-family: "Arial";
 }
 
-.nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: rgb(101, 161, 141);
-}
 
-.nav div{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 100px;
-    justify-content: space-between;
-}
-
-.nav a{
-    text-decoration: none;
-    color: white;
-    font-size: 21px;
-    text-align: center;
-}
 
 .center{
     display: flex;
@@ -44,6 +23,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
     gap: 5px;
 }
 
@@ -68,18 +48,29 @@ h1{
     text-align: center;
 }
 
-.content img{
+.container{
+    position: relative;
+}
+
+.legenda{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.legenda h2{
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.container img{
     opacity: 0.6;
     width: 150px;
     height: 150px;
+    transition: 0.5s;
 }
 
-.content img:hover{
+.container img:hover{
     opacity: 1.0;
-}
-
-.nav-div a:hover{
-    transition: 0.8s;
-    color: aquamarine;
-    text-decoration: underline;
 }
