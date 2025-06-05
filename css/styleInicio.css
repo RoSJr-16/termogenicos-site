@@ -9,12 +9,16 @@ nav{
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #65a18d;
-    height: 8vh;
+    height: 10vh;
 }
 
 footer{
     width: 100%;
     color: #fff;
+}
+
+.footer-link{
+    text-decoration: none;
 }
 
 #footer-content{
@@ -39,23 +43,100 @@ footer{
    width: 2.5rem;
    color: #fff;
    border-radius: 50%;
-   transition: 0.4s;
+   transition: all 0.4s;
+   gap: 2rem;
+   margin-top: 1.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 #insta{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#face{
+    background-color: #4267b3;
+}
+
+#zap{
+    background-color: #25d366;
 }
 
 #footer-social-media .footer-link:hover{
     opacity: 0.8;
 }
 
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
 
-#logo{
+.footer-list .footer-link{
+    color: rgb(148, 148, 148);
+}
 
+.footer-list .footer-link:hover{
+    color: #65a18d;
+    transition: all 0.4s;
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer-subscribe p {
+    color: rgb(148, 148, 148);
+}
+
+#input-group{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+#input-group input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input-group button{
+    background-color: #65a18d;
+    border: none;
+    padding: 0px 1.25rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input-group button:hover{
+    opacity: 0.8;
+}
+
+#footer-copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #65a18d;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+#logo-footer img{
+    width: 150px;
+    height: 150px;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
 }
 
 .nav-list{
@@ -64,7 +145,7 @@ footer{
 }
 
 .nav-list li{
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-left: 32px;
 }
 
