@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body{
-    flex-wrap: wrap;
-}
-
 nav{
     display: flex;
     justify-content: space-around;
